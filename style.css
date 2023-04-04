@@ -23,6 +23,7 @@ body {
     background-color: var(--bg-color);
     color: var(--font-color);
     font-family: "Ubuntu", sans-serif;
+    flex-direction: column;
 }
 
 main {
