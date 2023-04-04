@@ -24,12 +24,14 @@ body {
     color: var(--font-color);
     font-family: "Ubuntu", sans-serif;
     flex-direction: column;
+    width: 100vw;
+    height: 100vh;
 }
 
 main {
     display: block;
     margin: 1rem;
-    max-width: 40rem;
+    max-width: 100vw;
     padding: 0 1.5rem 2.5rem;
     position: relative;
     border: 2px solid var(--border-color);
@@ -139,6 +141,10 @@ input {
 
 .justify-center {
     justify-content: center;
+}
+
+.justify-arrownd{
+    justify-content: space-around;
 }
 
 .justify-between {
